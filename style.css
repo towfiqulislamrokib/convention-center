@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-color: white;
+}
+
+.bx-menu {
+    color: black;
+    font-size: 40px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.btn-book-now {
+    border: none;
+    padding: 8px 18px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+
+    .btn-book-now {
+        padding: 5px 12px;
+        border-radius: 8px;
+    }
+}
+
+.bx-right-arrow-alt {
+    font-size: 15px;
+}
+
+
+
+.navbar-toggler:focus {
+    box-shadow: none;
+
+}
